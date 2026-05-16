@@ -1,0 +1,92 @@
+export default function FiftyMLBusinessApp() { return ( <div className="min-h-screen bg-gradient-to-br from-black via-gray-900 to-gray-800 text-white p-6"> <div className="max-w-6xl mx-auto"> {/* Header */} <header className="flex items-center justify-between mb-10"> <div> <h1 className="text-4xl font-bold tracking-wide">FIFTY ML</h1> <p className="text-gray-400 mt-2">Modern Business Management App</p> </div>
+
+<button className="bg-white text-black px-5 py-2 rounded-2xl font-semibold hover:scale-105 transition-all">
+        Get Started
+      </button>
+    </header>
+
+    {/* Hero Section */}
+    <div className="grid md:grid-cols-2 gap-8 items-center mb-12">
+      <div>
+        <h2 className="text-5xl font-extrabold leading-tight mb-4">
+          Grow Your Business Smarter 🚀
+        </h2>
+
+        <p className="text-gray-300 text-lg mb-6">
+          Manage sales, customers, products, analytics, and reports in one stylish dashboard.
+        </p>
+
+        <div className="flex gap-4">
+          <button className="bg-blue-500 hover:bg-blue-600 px-6 py-3 rounded-2xl font-bold transition-all">
+            Explore
+          </button>
+
+          <button className="border border-gray-500 px-6 py-3 rounded-2xl hover:bg-gray-800 transition-all">
+            Learn More
+          </button>
+        </div>
+      </div>
+
+      <div className="bg-white/10 backdrop-blur-xl rounded-3xl p-8 shadow-2xl border border-white/10">
+        <h3 className="text-2xl font-bold mb-6">Business Overview</h3>
+
+        <div className="grid grid-cols-2 gap-4">
+          <div className="bg-black/30 p-5 rounded-2xl">
+            <p className="text-gray-400">Revenue</p>
+            <h4 className="text-3xl font-bold mt-2">$12.5K</h4>
+          </div>
+
+          <div className="bg-black/30 p-5 rounded-2xl">
+            <p className="text-gray-400">Customers</p>
+            <h4 className="text-3xl font-bold mt-2">1,240</h4>
+          </div>
+
+          <div className="bg-black/30 p-5 rounded-2xl">
+            <p className="text-gray-400">Orders</p>
+            <h4 className="text-3xl font-bold mt-2">856</h4>
+          </div>
+
+          <div className="bg-black/30 p-5 rounded-2xl">
+            <p className="text-gray-400">Growth</p>
+            <h4 className="text-3xl font-bold mt-2">+34%</h4>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    {/* Features */}
+    <section className="mb-12">
+      <h2 className="text-3xl font-bold mb-8 text-center">Premium Features</h2>
+
+      <div className="grid md:grid-cols-3 gap-6">
+        <div className="bg-white/10 p-6 rounded-3xl border border-white/10 hover:scale-105 transition-all">
+          <h3 className="text-2xl font-bold mb-3">Sales Tracking</h3>
+          <p className="text-gray-300">
+            Track every sale and monitor your business performance in real time.
+          </p>
+        </div>
+
+        <div className="bg-white/10 p-6 rounded-3xl border border-white/10 hover:scale-105 transition-all">
+          <h3 className="text-2xl font-bold mb-3">Customer Management</h3>
+          <p className="text-gray-300">
+            Manage all customers, orders, and communication from one place.
+          </p>
+        </div>
+
+        <div className="bg-white/10 p-6 rounded-3xl border border-white/10 hover:scale-105 transition-all">
+          <h3 className="text-2xl font-bold mb-3">Analytics Dashboard</h3>
+          <p className="text-gray-300">
+            View smart reports and business growth charts instantly.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    {/* Footer */}
+    <footer className="border-t border-white/10 pt-6 text-center text-gray-400">
+      © 2026 FIFTY ML Business App • All Rights Reserved
+    </footer>
+  </div>
+</div>
+
+); }
